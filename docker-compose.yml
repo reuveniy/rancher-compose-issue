@@ -1,0 +1,7 @@
+test:
+  tty: true
+  image: localhost:5000/microsoft/aspnet:1.0.0-rc1-update1-coreclr
+  stdin_open: true
+  volumes:
+  - /vagrant:/vagrant
+  volume_driver: local
